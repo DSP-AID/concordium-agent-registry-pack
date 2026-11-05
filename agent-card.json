@@ -12,7 +12,7 @@
         "description": "Verified by Concordium badge - on-chain agent identity in a CIS-8004 registry",
         "required": false,
         "params": {
-          "tokenAddress": "ccd:4221332d34e1694168c2a0c0b3fd0f27/cis-2:JyP9Udgund14CEdVX8DsK",
+          "tokenAddress": "ccd:4221332d34e1694168c2a0c0b3fd0f27/cis-2:JyP9YQ12p23Tk9iFqSYa8",
           "owner": {
             "account": "ccd:4221332d34e1694168c2a0c0b3fd0f27:4FCA4rWQ2DpNW2eKF9MSnH6G17TQ1bWo2j7KiH8SvaqPV9254W"
           },
@@ -45,7 +45,7 @@
   ],
   "registrations": [
     {
-      "agentId": 15292515925239304000,
+      "agentId": 1007,
       "agentRegistry": "ccd:4221332d34e1694168c2a0c0b3fd0f27:12802.0"
     }
   ]
