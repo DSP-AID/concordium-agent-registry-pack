@@ -60,9 +60,11 @@ interrupted run resumes where it stopped.
 `verify.mjs` re-checks independently (public gRPC only, no secrets): the badge's base58check checksum and
 CIS-4 v2 layout decode to the recorded instance/token; `agentOf(tokenId)` returns exactly the URI + metadata
 hash pinned by the `setAgentURI` transaction; the served `agent-card.json` matches its recorded sha256; the
-deployed module's bytes equal the shipped `cis8004_mainnet.wasm`. If the public testnet gRPC endpoint
-(`grpc.testnet.concordium.com:20000`) is in an outage window it retries and then fails fast — re-run it, or
-point it at any node with `node verify.mjs <host> <port> tls`.
+deployed module's bytes equal the shipped `cis8004_mainnet.wasm` (this last check is skipped, not failed,
+when gRPC is down). If the public testnet gRPC endpoint (`grpc.testnet.concordium.com:20000`) is in an
+outage window it retries and then falls back to the **official agent-registry indexer REST API** for the
+on-chain state checks (same PASS/FAIL matrix, source line printed), so a re-run still verifies against real
+chain data. You can also point it at any node with `node verify.mjs <host> <port> tls`.
 
 ## The Verified-badge mechanics (what the indexer checks)
 
@@ -94,7 +96,8 @@ point it at any node with `node verify.mjs <host> <port> tls`.
   Concordium testnet (chain id `ccd:4221332d34e1694168c2a0c0b3fd0f27`).
 - Identity uses the legacy testnet IP (`ipIdentity 0`) and ARs 1–3; attributes are not revealed on-chain.
 - The mainnet module reference computed from these bytes differs from the canonical mainnet ref string
-  (ref is chain-recomputed on deploy); what is byte-identical is the wasm itself, and `verify.mjs` proves
-  the testnet module's stored source equals sha256(bytes) of the shipped file.
+  (ref is chain-recomputed on deploy); what is byte-identical is the wasm itself, and `verify.mjs` checks
+  the testnet module's stored source against sha256(bytes) of the shipped file whenever the public gRPC
+  endpoint is reachable (the check self-skips during endpoint outages; badge integrity does not depend on it).
 - `run_results.json` also records a self-deployed registry instance `<13042,0>` (init + register on it);
   the badge-bearing registration lives on the canonical `<12802,0>`.
