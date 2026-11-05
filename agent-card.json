@@ -18,10 +18,9 @@
           },
           "contracts": {
             "cis8004": "ccd:4221332d34e1694168c2a0c0b3fd0f27:12802.0",
-            "cis8": "ccd:4221332d34e1694168c2a0c0b3fd0f27:10081.0"
+            "cis8": "ccd:4221332d34e1694168c2a0c0b3fd0f27:12801.0"
           },
-          "verify": "Resolve tokenAddress via CIS-8004 agent_of; confirm owner + status is Active + card SHA-256 equals metadata_hash.",
-          "network": "Concordium testnet (chain id = first 32 hex of testnet genesis hash)"
+          "verify": "Resolve tokenAddress via CIS-8004 agent_of; confirm owner + status is Active + card SHA-256 equals metadata_hash."
         }
       }
     ]
