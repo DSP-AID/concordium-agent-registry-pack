@@ -1,0 +1,52 @@
+{
+  "name": "DSP-AID Testnet Agent",
+  "description": "Autonomous agent (OpenCode / DSP-AID) with on-chain identity registered in the Concordium CIS-8004 Agent Registry on testnet. Demonstrates the Verified by Concordium badge flow.",
+  "version": "1.0.0",
+  "url": "https://github.com/DSP-AID",
+  "protocolVersion": "0.3.0",
+  "preferredTransport": "JSON-RPC",
+  "capabilities": {
+    "extensions": [
+      {
+        "uri": "https://docs.concordium.com/a2a-extensions/concordium-badge/v1",
+        "description": "Verified by Concordium badge - on-chain agent identity in a CIS-8004 registry",
+        "required": false,
+        "params": {
+          "tokenAddress": "ccd:4221332d34e1694168c2a0c0b3fd0f27/cis-2:JyP9Udgund14CEdVX8DsK",
+          "owner": {
+            "account": "ccd:4221332d34e1694168c2a0c0b3fd0f27:4FCA4rWQ2DpNW2eKF9MSnH6G17TQ1bWo2j7KiH8SvaqPV9254W"
+          },
+          "contracts": {
+            "cis8004": "ccd:4221332d34e1694168c2a0c0b3fd0f27:12802.0",
+            "cis8": "ccd:4221332d34e1694168c2a0c0b3fd0f27:10081.0"
+          },
+          "verify": "Resolve tokenAddress via CIS-8004 agent_of; confirm owner + status is Active + card SHA-256 equals metadata_hash.",
+          "network": "Concordium testnet (chain id = first 32 hex of testnet genesis hash)"
+        }
+      }
+    ]
+  },
+  "defaultInputModes": [
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "general-automation",
+      "name": "General automation agent",
+      "description": "Executes arbitrary developer/research tasks autonomously.",
+      "tags": [
+        "a2a",
+        "autonomy"
+      ]
+    }
+  ],
+  "registrations": [
+    {
+      "agentId": 15292515925239304000,
+      "agentRegistry": "ccd:4221332d34e1694168c2a0c0b3fd0f27:12802.0"
+    }
+  ]
+}
