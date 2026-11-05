@@ -1,0 +1,309 @@
+{
+ "seed": "2921677098febcce73b70939d2d4b5fef5494c4938d16c4f5b0797b4eebba120f6993024a098a7703418eaea2b11d3d1d53069adaedae17b966ff94aecb6f787",
+ "arsUsed": [
+  "1",
+  "2",
+  "3"
+ ],
+ "codeUri": "https://id-service.testnet.concordium.com/api/v1/identity/6f0d4bc53db146bd80ff4f090a9984cc247fc6084b05b3b9fdc984cae08534a7",
+ "idObject": {
+  "v": 0,
+  "value": {
+   "attributeList": {
+    "chosenAttributes": {
+     "countryOfResidence": "DK",
+     "dob": "19700101",
+     "firstName": "John",
+     "idDocExpiresAt": "20300101",
+     "idDocIssuedAt": "20200101",
+     "idDocIssuer": "DK",
+     "idDocNo": "12345",
+     "idDocType": "1",
+     "lastName": "Doe",
+     "nationalIdNo": "N-1234",
+     "nationality": "DK",
+     "sex": "0",
+     "taxIdNo": "T-1234"
+    },
+    "createdAt": "202611",
+    "maxAccounts": 200,
+    "validTo": "203012"
+   },
+   "preIdentityObject": {
+    "choiceArData": {
+     "arIdentities": [
+      1,
+      2,
+      3
+     ],
+     "threshold": 3
+    },
+    "idCredPub": "8dae943af7a782a73ab8be7d5c14fd5de83bccf41ea1e2058f04bea8c7fab5c7d8a2fc3e15f5830a1a95800321ca8c79",
+    "idCredSecCommitment": "8f8f6f208f80ea2b91e586b623e1ad7160aa329aeae982f3197dc2426833c8cfa38d71319b92414b0b0e899dd8230408",
+    "ipArData": {
+     "1": {
+      "encPrfKeyShare": "a1eacee224b58e6a7c4372bb40ac6f849d142a3955cc4542912ff695cadc7cb944234fe5048538035915d6d05c55725cae445d76e9569ef1f0bbac4ed019538b6d33c94ae94ab9446ead94d4562196b65b2755669ded477fb6aa175a5e719494a8ed2c0872780529c2943f7623bd3fe1d1d558de746efc7d1870a8f7b362499985e52084286d895029af80c54a312521ae255a4eb592e89436069b35c81bdb2219ee7de7d233d17030143cdb112eec57d2ef94c0740877dd498913bd882a7cc983494c37f31cf0755f501167e5718a76260c6ccd3b6c3d380130fd5e2352577fa58693c3530ebdbc70c5fbdfd17689f5b052547cd45f7b25410a135cacdd594e1a45cc5730066e1575a6c9f7321d549bd0e3f5bcc92d5829c0a8670dd58f01a7ad047407cc97e6ca9f9d76f9652ec96727b2f818d253164dc5e9402455a2da06058b8dcac50b47694e164c4ab7ba0cf18a87b985f186e4bb88d2dd69f1f359300d08e7de061a25521727cbcab93aa65bf78b2e49526aefc0c54632cc6612febbb8df15a0f2de4465ec6a55f015625abd6f1aac1e3126e59761c139c6b6590722436b5b5759ab8005880e88c183504b2597673e6c0c5ff9a332a1d2f884e66445812a7173248ea4167f96d2ac450839eaf0199a2951071fae179d23e0a696bfb9b8dd9ba714728c2491f9b64794b6964e47fcee83ba1a5f2b8d2bbd2b3c0c09a4c620c8e374057319ae51d18b4b78c0bea0ea5a681d8ab2388e90eb92ce6cc41d77bd266e7a01293e44636dedd87c4923efe3fcb0a9112481722f446fcdf0c5038684580d70dc52a227d4ad0e0ea83a2ffa33f1b5f0cbf3f8f3649b43d1152506e045e628fbdb27484adeee28685a8f3dab7e4c92a7d1c91399fce5706416954a2540cf1a61f30f770c6bf983f113fdc478e8d0e5520684a32bc9049a7488d5d3aa8a992a6225f5c4317076bdf0831cb3b959e56ca3f8df168aee53d2ddd8e103290b578078b8b321c846f7dc99e8a0d7a7d402c44305ba68991d1a33f497223d5edcafc65ca7a7bc63d4da849e20f0fcfa001ed9cb55b76f804452c33cd828c0",
+      "proofComEncEq": "67581c8ccc929417475920b9b1863b0d2f6163fe338b851c18cda9520a9c87e0037347021a678a64b4cc24bc05ea30fe656f283b54ab23edcfd0dcef3d1d21f003d3ab86e4d895a44c2c1e7ab4c6263564d1f0a01d99938b3c50912cd4bdcd22"
+     },
+     "2": {
+      "encPrfKeyShare": "a6bc337073b99537eb60f442944182b10cf927e1232d83d12edd9736a39413d4a50caf2ccee6c2cf4e615e805e9fddca94cc7dacfd72a3c78d75f56d3d820c022471d0773d0e33c5b6978f9faee6fa53085b41cb17dc2adb42c464b51e154af08342e610e998ac7c4fb0bf3fe6d93d2eba008ab624196ff6440f2ee6c6e46c1a7af824d74d746e4e221880eb69ce65f28e3f70863ad360b163a38eeae669b7412aee88cb6dc18d887c18f875aa0dca2ee2d68906b8b4fbc9c41c0a68407f99e1b9bbc5798262f7deafa6e9cb71d85cb7358f5a854f600855d78de8ffdf392153c657aeeb94a6bfcab829591baefab94a8615ac0e68ea0f96ca5877962a9981235a6db458cefd5b455f77a67e586aea4122499c8bfe4374b17224731b5fa37e3ab0320c3d6ff0f30c6fe17b349b949638419a97c4d7b75c466b8f7270808fa9b9001a39cc6908a54161f2cc29dce2ddcfaf4c7b3aee712edecc60e3adb8fc671b7733707dc1d8dbef51d95f04fc700e646f2f79840d4efbda38060f86501c88e581f596be94dd3154191b169397909c3cba8d0829f893c00f674e8bdebe43ee686caf804f744f1e93ab22d91a416ac3788f0c7b0cac1882553f452ba9ae8a31cd4c04ab20441745a69f8e61aff0dbaa890ff2566bcf4aed805924da76a7ce773fa4340dbb763e1713082fcc1a085b09d56a9130b49b5feac9db4da3dc24496ca08e1add393824b884356e84352645907297fbcfab096facd90f9dd5a4e3d392a0e5ff2802b2c5593ec3ca2e540f1200d22d33898571fc74c958676180ab9f85c090ddb36d82215de1849ce2ee648d25e61cfee76d5f102d6035ce25c3968be6d6f11588187fc2a1ac16c74116a55438d0b72c255f6c4c3fb05ca010dca014d299d24bbb68bc15ca4dd08d43993cd0621d60bbaff2c037f354e5caa6c5f191184895cf8adde18f36bb0bc43aa1ed82631419a03929cc46d4e952308a453b039457146b3d2e3c69c1aec70c43b970fe830487ec4a2dec2c34ff5cd695796b678ed158085d298497847912e305379300e03bca7ee87698a060869e686afcd94d808b",
+      "proofComEncEq": "49102959e30e43fa0096707ad044590034d3d9b730d03eb55a7ccd06cc3d09342e1914bcf213ed05ef3cb101600ed4b6f78e355e9a937a9a7bb21fb820bd758545495c4ca53dc38a822ebb231f5747bb714b9a12d7f030b32da86e8ca2a45a25"
+     },
+     "3": {
+      "encPrfKeyShare": "b93c11cbcb32e86e4547d03e77e9f1b1ff5c0da4dcb52c8038d140d59fe63d15b005e7ef4c1bbe001f59271631372a5ca49c966b3cd6b6c290cb8110bfec39647843db405adc0f48387c9ab8121ce7dc20158a8533106f5790d8655aa197c15ba2e5d8acc5e989d046a128e3b51a0cdb9bfa9472a00a16c07ef18405c19109757c3e3eb030ef10e7b18645b12aed319f84da53bfa0657b87cdb70bbeab4dcf80b297a50885cfa2bd55a1ba535563aad5d544f7d048a90a7fb8740fad583e009dab171d786f882278e44ef1006e62ee4ae05b89ca8738a7231684c8bcc41e6f275071cb9b749a8bdb8fc31dead12deff894de8c52e5d7b60a540f5009aa2af325893d05859d729ba3d9814c9a8d6bdedde75cba79994a1d3028d69ca140b76524892ac15bc9a799b59072321525876c8e2e4a8ef3df29d282b4b9a5d399783778f57d1eb80c3052ec6ab909795bd9e8648a5e6c60ee3838345385a67a4e6494a339b9231bdf71acfc82da7e3f20e66e103005fdf8e2e9662e3d419affb6d470058ab1dc36f18b53ca931710a2020cc4d5e80979801aa2b026ffa942c0dc375fc08604b65745499fd88b441c63e0b5f1c1875610d83171936d9995ffea6f2a03f21937b90308fda8e55cc96b8119fcfa30f160479eb8dfa0008b008a5f7f879a369566d4234029dfd0e88fd996faac681756edae99bb0e3b175991a0779b7dc7ffc5a66a495d90edb1cca0e942a2d7b22d858eeb31601e69587f755a17cd672336133719fa49021a3467423e3d5fa2ace3a66ea08c4d2b095dfab07579b2eb34a1a0795edc21ae49cde6c50b669a472620722e9c5086904b0759e4d2c2c23cf9ba9c3fcf1545964533b271962e92cd267ea6f4023bde390cb14ce425ae2035de7238c544087b6fc863754713acc6f6cfcdd4885acdf67a551b9f9b17b9ca71de52945eb6be52368de99b40c47ee2f0c038b0da03179dfb005d586fa719ba5ec90c558e229fcff20d14ca176e2cde54e86aa67ed898a7c6bf10aaf8cea05004cfdd007a20a867ea1cd97f708bf25b638645c96309c85e1b8d1bc0fd9e78f2fd6732",
+      "proofComEncEq": "6f6b688fdcecbebeaa3cb6a6cb25ea52fd579787f69773d9bf5220268932d4af6993108e5c81cb5eb9992ccd66e00a3e13a475960cd95e7659742e50ca1d3eec6a46097475996ff1f60fe3682b40ff881297041d8e98dd1ce1f39f1db8087233"
+     }
+    },
+    "prfKeyCommitmentWithIP": "81fd750ef08ad7660737bf7180296ef21b84d0bff5f9ea6448a5547e1e0dd4ab57ea1def38ede566fef2960100d378b0",
+    "prfKeySharingCoeffCommitments": [
+     "98a9007efbfd88a0dceacbb9c7b63889c041eabac46e8c640ef4ed619190bfec8208792148db719c69d9e20084530581",
+     "885fba7e6bee08e8a3d6398d321aeb25d3a97dd12a3b470e93833289e07ddbba52591168c342c2f09e7f716276252d18",
+     "a33d80d0d2acd41d3ca3ec88a2b44ea208e3a0962d54268dc2bb7bf4579aa967970be5882e101220c3aa948b48df104f"
+    ],
+    "proofsOfKnowledge": "ce3324b9f9189700b34ac533943c6ff13b8b58b1fddf6ca3674c219ace997465636b29357df277e3ba8191ba3ca61296bdd8c797c412a38a133f17d115f425521b0050e3c9b6383b0a2eb69b508dc3b1c3df7a475a8131ec5acce49d718f7245604eef1c364794512a3924dd286b71841477dc519d36108aba2bf782f55f4d3870f4d27404500a95ce5423feb0159465f9f71a595866327843e317b40373835b3bfb770a41f9fa22956579fd9f0cf1aaa18cfefa1b4946ad53d46d03acf7f038321643c7b2f8a0424ef2585c1a662d1d9cd1f8f55ae4a90ea67cc6932a94d8120000000000000003b824d0be65e24fcfbb54922b2a6c5d383d0eb21285e89064cb0e750007ffc095d1b4da2ab4d3adbd2d4e470c448cab1bb7d0e1962dff93144be394ccce23d86bfb45458b829cfa8e1dab2a9fcd3f70cd190963a308cdc33d6e5448b1a344be83ae7dcae08bd98383d382b1271acce383682e9a1af46b0e89c47c86c4baec57a6c337f861f1a7585a9e73f157f438a6298bd18455589b467db8764a10ee97594b9a7091d1bd484c879b09cec3d1fb6fbb6943bb9a9fac095d80534c4f346556a604fada61625bf348b253e35acef194dd003a357e950cfa79e9da714668acb3fb21835e32b435fbcc60beacad0c7df982c7dee41b70f2a898da58e3fd815e589b0a3d574d4b4d9f731b14f5a6f933831d1d96ec9c9f67e6734d8dc4a26aee81ef0000000896e915440a7ea2861445f7a1bbd2a0c3b9bc0b182bf8275016da1a17bff01a659103baaf63042e6989649c0c75fb746ea37b3514e0085a99536225af4177f8ec3cbcb81961a7f818bfebba547d9a817ff7b2fecdaed198a0aa8b46b5f9ab1004b8b754e232220bb989f44f2158bc270b267327329d6efcaa54edc4d5017b6cab5b7161a7993e734fafd69e41a363b464b3038f2ec579c4afdf96412474c4dbcc3d09e7897567ae962f6d3f59a78e670bda1ac04e0c1e072743ebef0224514879acc7e984b89ab37df72c33bf2661fdcb3ae579508da31e74330183344ab135bc7acd3f590168985f8ae65de60923ac70b56865007439edb221017a9305128a8a6f1472e7c961d5e4ebbd37f8b0a683e88704ecb54208ab5e0c4846429dcc909388933be83966c80007693c76473032231aa2fa413ef8074dfade9feee902249c21cf11cf59b2db7f8f1d679ef027830fb55ee11f87efb69e3ef9eb8f127f44521a80a98f77d3e3eb8e74860858c24156a2be4d85f706468c583c52e6a6edf95c8a0c67c14521530ef537e423bb2e0d3c291c0a1fa4ac18af05488c15251f491c38eb81b0a1a691ebacdaaa4344e808deb8e628f868698d45525661bcfb064488fe2a56a685e3c8e55d06cba8b3fb79aa591a8be40999bf87cef4038a777b072d95e60f2c225b84a8707a81df127424d50b001574395383f884fe9bbca9b1dc8826a35b5fa5c3c49754da05677e11fac8a8a2a99fc565b83781e792babcbf395aaf35905cf16778a86d80d4b6e90adffb044c764175d32929d5f143fb4d5bfc13a2e2a7ab80e6fcf6c47035b43199b680b7174353558aa1d5e1f75038ca879c8491a573599b43c7b5c0a6d5dccbc541748ba7f581e26855d8c20d54ba7234baa387ed3dd9f2da92cccd0cbcc892afb96b51c6df7e99f5df3060e04d5b25f844e6a05643e2757b26abbaf965aeeacc54fa22ccef6a30df463465f7eec7add22f20d33f3afa103ed7c44cbb5d931c167bf297337d4a34f88ce1b775d227f357defad348d9b6452737255a302156fafe8ab65bf01a6425699014eb30af002e22d296735aada408d062631c82de651e6ab87b7fff1a9b180b9eb71885af8ad69f4d4539e3ef9c33434cac355e5e2116ba184c3d136ae89efaa57ef803a8ceeff37f88abfff487e0beeb61d587e55f71e5009deceb64296487cea54951a0aa408a8c420645da93a7cfc78189737e1499d84edfaf6499f065e55e03d7c73300ca7faf69f4f10e87cedfe4619df538fb1c1e4a68652b1954758f9ba4dffa6c83ec3a39f483de7b2a1ad4e0688fbb882da8776ab497ddf74d49d7cffb9221fae8a397f1eba8a30a1e5673733016d1b98641fa1174a3ce1155548bd6af9cfddcad976ae79ff70dbcb67129fd09b10b3581c811509e4fc02cdfcfbeacad1419c794419c06ae156bec31756820d1c9c77b790c9b80416d7bb82e3297cf6d82873756244d8a066d2c01d48c1d86bc002aa5f50972f21b6a8f167d965a83c35d3becdf243c5110592b96fcc1820dd8fe696087a57c527b521c81637d44ae6044fb25cd47e51f5d00000008944b9f5f7661ec13434bcbdd4b20440cd784c57d42469b8907a49946ad8c9c99ccd68d52254d6a88cb2d8357c6eb13df85017ef4a5734cf8f08a3b83b172baf90525847becbe9b9f7ac3d82a2be0cabc64e7eb9ecc5fa753223b1dab0ac5032a8e75dd26a81adf116aec75e367a9ad269edd2be29ab33d9505fb956015d36f96b0fb4feb673b8043d27a7e13c96bd6438bc76be617793ddf2eb4ed29e8e111c323cb8864b541f4047b8ee8d64ff7c688c19a3382193fef40e8e3fa036d9500fb878453b8effc998cbdeff99e230c756183d9ef5d4ef9f3a8780e461d0eb0da98546520d9a24966587fd6d421cca59bf1946d378900750b71b5f837e7c128113cc0bf89a25fd7e8b8fc023ebc8be1ec817ca358ec00c3d2fe0588cd3dc80fc0f694d02d473d46ddd6749a6a94359f56b2f7fd1dd483ee48785aa9afc2d26ecf47b913b3d205ba507f5ae87303518dc6899384193a1f520773b360a9ad96b9a916fe83c531514df314f0968bacea2e1123483da9d75681bc7fbe2dffef4d86ab55b45265620bbce54adeae98f43cec718c0033573e7d8d0d80cb0feee06840ee4df0c0872abacee600100086786e56d0808d37b689a2c648a8abf0269d24764849ba653d27843c7d254b20c8ddb9f1d74004846b9dcc547e63dcc9e416673b2cd5977ea74afaa0c899b946ee63240a2e4c9d56eb7ae0a2b01a4a4cf88b08b6dd0a9e031440144c51001d1fcfe63a17b20ea28f53f5f6d39ee95f94a510b3a578827239ec3820919d659d0bed1441b56fa5a2adf1fdfa4dcb1ff4d1d903c706cfa8a7be3204e95614d95e3e19edc68ed413dd43cd969122bb05c9fca2a94ff600db3d427a579b9267762ef9ea555fbe1ba58d91d4ffc55e66c58d72030bb683bc3ac106bcf81835971b930006e31a227769647c9052e3eccc1594b2a76221343cdf8c35cec4dcb23352748fb8cc3dc50adae21b15173222abbb1bd366d0334d0c4632c63c28a71b87888153e5a33a0e88a09026652a5d1c1a9b3839e1ad49d69019d733dddb0b4f6c4a9806a08ddbaea3b9ffdcf888550158e17dd4415b69a64a5a10e4b8eb3ff3e5cb1f99245d20971487a6f2250a6dda863fda2357621bf7f61b0a43d8db5c68951e99b61275d12814d4c4a78e6ea4e0a18490527dc95b5560999281d1e0c75f3b33eecb66c0a8fe51c11abb63456b1dfebf95d7e05151a1302ebd1a8accb150ca4edcc45d48b03cc3c3b803b12384c7c3f361871d415dc3a40a30b7fd048dcac5b872159768766f55ab559102ad49f39ac809159212200c4027b0442dbf17be232ff9b6c44a3768431983ddf78cba662edcf15b0d8e9eb458855524b70b737f39699ab579a4cd9ad231b833b0c3d337046cc2e81d903b652fd13b8b4e80299b29c1b4914ba4b445a50e669c5a3097e0fdef73ec44874f2830b4429f13a813979952ed32737505b315820903b4d86b8f10553024472858a8efcf250c0464b4a2c530768d9d7e545b8bb6f96daf53d1f71d13150d08d1a7a28fc54804d476997894c90337c19e9b7479b45d6bd64fbbf56882c1e7c015db56908100000008b08b44647c7440c4a57115c89b29beb69fbae6e2c72f36b3350369f9fb50bb8cac6188521f4d0cbd6ba45c45c6ae216fb6e3db63cc9c6af51392d83fc32e3dd77646b781c1c80da6cb65060c5f5eabd062e0dde65a7cf807859029321b287429a0af618c6ed5feba2040dd86359dd0e30b4663bea9d5aabc03062d2e7f2135736161501375276392a4a069fa81020111a6745d33e3b1b7f1c6be12fc32af4b9772791adc8a24d076bc449deeeac9c75d87de377c71b177fb2c91537a3a68582f8d28728becd090b46c81f39e308ca1b536fd13effc309aaee4c622d8702017c200c104f38e16ccbb2811fef9ba9c19a7947be8fcc754a4479f1a256297c40367902a7e1855590a3f16d5cf69ed69900b9603a6d980c18ea64037393da8342c0f88e6795e4ea5e9c340e5ef35273f3e100ca7831168d67ca372f1dee0340c6cdb0976ee063e36fad0130c943bd4eed61789153bb0991ffec3944ed88e0282d8389535fe70b7567be6ed4c4d8c7ed6c21dfab5c38ee99151555696aa4f1c2f52aea75b97028468e8a762c522bb76eb25729a39cc46db6a9f5043e5e0c3721109c1287a999c755d310e63d7b51a6a581a2aaa823e3485bf7688274374a1d6b40b2b94e6f72d49d4453ac933fc6f520fadfd7869cc8f8f22214a95a4b86df23180eb865805164aab1f4ced48842197f7f31267acac080dd55677bb996fb56beb53fa736c0e0d7643c26764c59c4dd2374b7d88a8923eb7435d39a3dd984b35626e2074e11bc73c1ea42522164f43a4a052ffae3503afd54ca07d91f1657f5975d622a8b4d113e3e1f891ee36c6471b71823a278e8950b7e18c3847a89b2679322edc3928cc245c9b8fff7659754a7523e903b53468fb7cafdfe7680fe47146c174a37f9951772bc18d483e994432c29b5d263d9871ffc1c70aa150e0e6a90f1f66aaaf7c922ebf6c24a729f2923971966e0424a4d39d3e0afd36cad1b59ff551361bd693d29e8cdb97ec3d1021a60a367a47b3667348ceb2b3f6e9392d7c1b26afc6b755b656a63a60d185af64fe8755c243697985d74a4453115ac3ec019d1eb214350504968364c9e4c2bae74e61ec2b99621c11be906e548bd686e395e0a577d75d86295ad621e626ad69142ddc0290b61e69dfafe25ea396b93f6062ba0b14d3"
+   },
+   "signature": "92179a60d4e18c5ae6117255e10cb9cb2d5564b9eca2fe7366fe30588bbe00608f6e66d2bf89fe6d62cdeed396e4700aa56af083c95c006f5a18caca997cc3a59e364daaf63ad8307ebbb458bf6e776b99be6fa7324103150075cf287f377298"
+  }
+ },
+ "credId": "88f7382450fb41374b05b552a141f073f24326773bc7f19622c5455b399ecb249d8380db5a45a6c738ccbd25f03dd049",
+ "address": "4FCA4rWQ2DpNW2eKF9MSnH6G17TQ1bWo2j7KiH8SvaqPV9254W",
+ "credTx": "7fa6d2e437a846ca6d9807bfca679a1970840518e115c5e3aef26548cb8b6f24",
+ "drops": [
+  "e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+  "e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+  "e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+  "e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+  "e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+  "e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+  "e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+  "e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+  "e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+  "e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+  "e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+  "e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+  "e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+  "e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+  "e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+  "e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+  "e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+  "e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+  "e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57"
+ ],
+ "chainId": "4221332d34e1694168c2a0c0b3fd0f27",
+ "deployTx": "8526a7d0636ef9cbbbe6910757d5bf8e9555c04915408a6ed3ffef504331acb4",
+ "moduleRef": "142462ff638f53b7bbeae8911d23579ed23e5e3c7e9a0353606019628121a5c6",
+ "initTx": "1bfd4a12455ac4ca0e8c4fb19e34616015aa2a9b32d1a8f7649fd89e9379c035",
+ "contract": {
+  "index": "12802",
+  "subindex": "0"
+ },
+ "contractSelf": {
+  "index": "13042",
+  "subindex": "0"
+ },
+ "selfRegisterTx": "7e95734678eaf570b8ee75cd4a8ac32c3ca165ab0bc69343d42d95cf395e7d94",
+ "registerTx": "f3fd27b47014e1ef4f10deb980f008278ce4f535ee39d40e07be1f51fd6a5ffd",
+ "badge": "JyP9YQ12p23Tk9iFqSYa8",
+ "repoUrl": "https://github.com/DSP-AID/concordium-agent-registry-pack",
+ "cardSha": "71806872bf44161ae5ba769ec08e324873cdeedc620daa0b165521e71f68737a",
+ "cardServedOk": true,
+ "tokenIdHex": "ef03000000000000",
+ "tokenId": "1007",
+ "pinTx": "d81018cd92febe15edf5ebd709695478d5bb516130f18eb5f51c4cfce99e54bf",
+ "agentState": {
+  "Some": [
+   {
+    "agent_uri": {
+     "Some": [
+      "https://raw.githubusercontent.com/DSP-AID/concordium-agent-registry-pack/main/agent-card.json"
+     ]
+    },
+    "agent_wallet": {
+     "Some": [
+      "4FCA4rWQ2DpNW2eKF9MSnH6G17TQ1bWo2j7KiH8SvaqPV9254W"
+     ]
+    },
+    "external_reference": {
+     "None": []
+    },
+    "metadata_hash": {
+     "Some": [
+      [
+       113,
+       128,
+       104,
+       114,
+       191,
+       68,
+       22,
+       26,
+       229,
+       186,
+       118,
+       158,
+       192,
+       142,
+       50,
+       72,
+       115,
+       205,
+       238,
+       220,
+       98,
+       13,
+       170,
+       11,
+       22,
+       85,
+       33,
+       231,
+       31,
+       104,
+       115,
+       122
+      ]
+     ]
+    },
+    "on_chain_metadata": [],
+    "owner_account": "4FCA4rWQ2DpNW2eKF9MSnH6G17TQ1bWo2j7KiH8SvaqPV9254W",
+    "registered_at": "2026-11-05T09:41:57.555+00:00",
+    "revocation_reason": {
+     "None": []
+    },
+    "revoked_at": {
+     "None": []
+    },
+    "status": {
+     "Active": []
+    },
+    "token_id": "ef03000000000000"
+   }
+  ]
+ },
+ "verify": {
+  "owner_ok": true,
+  "status_active": true,
+  "uri_pinned": true,
+  "hash_pinned": true
+ },
+ "mcp": {
+  "checkBadge": {
+   "url": "https://agent-registry-mcp.concordium.com/v1/check-badge/JyP9YQ12p23Tk9iFqSYa8?network=testnet",
+   "status": 200,
+   "body": "{\"token_id\":1007,\"token_address\":\"JyP9YQ12p23Tk9iFqSYa8\",\"agent_uri\":\"https://raw.githubusercontent.com/DSP-AID/concordium-agent-registry-pack/main/agent-card.json\",\"http_status\":200,\"card_sha256\":\"71806872bf44161ae5ba769ec08e324873cdeedc620daa0b165521e71f68737a\",\"on_chain\":{\"owner_account\":\"4FCA4rWQ2DpNW2eKF9MSnH6G17TQ1bWo2j7KiH8SvaqPV9254W\",\"status\":\"Active\",\"agent_uri\":\"https://raw.githubusercontent.com/DSP-AID/concordium-agent-registry-pack/main/agent-card.json\",\"metadata_hash_hex\":\"71806872bf44161ae5ba769ec08e324873cdeedc620daa0b165521e71f68737a\"},\"checks\":{\"on_chain_agent_found\":true,\"status_active\":true,\"has_agent_uri\":true,\"card_fetched\":true,\"hash_matches_on_chain\":true,\"badge_present\":true,\"badge_embedding\":\"extension\",\"badge_well_formed\":true,\"token_address_matches\":true,\"owner_matches\":true,\"contracts_match\":true,\"verify_present\":true,\"extension_conformant\":true,\"verification_present\":false},\"badge_valid\":true,\"issues\":[],\"network\":\"testnet\",\"expected\":{\"chain\":\"ccd:4221332d34e1694168c2a0c0b3fd0f27\",\"contracts\":{\"cis8004\":\"12802,0\",\"cis8\":\"12801,0\"}}}"
+  },
+  "badgeJson": {
+   "url": "https://agent-registry-mcp.concordium.com/v1/get-badge-JSON/JyP9YQ12p23Tk9iFqSYa8?network=testnet",
+   "status": 200,
+   "body": "{\"network\":\"testnet\",\"token_address\":\"JyP9YQ12p23Tk9iFqSYa8\",\"token_id\":1007,\"status\":\"Active\",\"owner_account\":\"4FCA4rWQ2DpNW2eKF9MSnH6G17TQ1bWo2j7KiH8SvaqPV9254W\",\"agent_wallet\":\"4FCA4rWQ2DpNW2eKF9MSnH6G17TQ1bWo2j7KiH8SvaqPV9254W\",\"agent_uri\":\"https://raw.githubusercontent.com/DSP-AID/concordium-agent-registry-pack/main/agent-card.json\",\"extension\":{\"uri\":\"https://docs.concordium.com/a2a-extensions/concordium-badge/v1\",\"description\":\"Verified by Concordium badge — on-chain agent identity in a CIS-8004 registry\",\"required\":false,\"params\":{\"tokenAddress\":\"ccd:4221332d34e1694168c2a0c0b3fd0f27/cis-2:JyP9YQ12p23Tk9iFqSYa8\",\"owner\":{\"account\":\"ccd:4221332d34e1694168c2a0c0b3fd0f27:4FCA4rWQ2DpNW2eKF9MSnH6G17TQ1bWo2j7KiH8SvaqPV9254W\"},\"agentWallet\":\"ccd:4221332d34e1694168c2a0c0b3fd0f27:4FCA4rWQ2DpNW2eKF9MSnH6G17TQ1bWo2j7KiH8SvaqPV9254W\",\"contracts\":{\"cis8004\":\"ccd:4221332d34e1694168c2a0c0b3fd0f27:12802.0\",\"cis8\":\"ccd:4221332d34e1694168c2a0c0b3fd0f27:12801.0\"},\"verify\":\"Resolve tokenAddress via CIS-8004 agent_of; confirm owner + status=Active + card SHA-256 == metadata_hash.\",\"verification\":{\"service\":\"Concordium Agent Registry\",\"verifyUrl\":\"https://agent-registry-mcp.concordium.com/v1/badge-check/JyP9YQ12p23Tk9iFqSYa8\",\"mcp\":\"https://agent-registry-mcp.concordium.com/mcp\",\"docs\":\"https://docs.concordium.com/en/mainnet/technical-reference/agent-registry/concordium-badge.html\"}}},\"registrations_entry\":{\"agentId\":1007,\"agentRegistry\":\"ccd:4221332d34e1694168c2a0c0b3fd0f27:12802.0\"},\"next_steps\":[\"1. Put `extension` into capabilities.extensions of your Agent Card, replacing any existing https://docs.concordium.com/a2a-extensions/concordium-badge/v1 entry; delete any top-level `concordium` block.\",\"2. Optionally add `registrations_entry` to the top-level `registrations` array (ERC-8004 discoverability).\",\"3. Host the card at agent_uri, then hash the SERVED bytes: curl -s <agent_uri> | sha256sum\",\"4. Pin the hash on chain: build_set_agent_uri { network, token_id, metadata_hash_hex, sender } (REST: GET /v1/build-set-agent-uri/<badge>?metadata_hash_hex=...) → sign with the owner wallet → submit (gasless via the sponsor service). Zero-gap variant: host at a new versioned URL and pass agent_uri + metadata_hash_hex together.\",\"5. Confirm: GET https://agent-registry-mcp.concordium.com/v1/check-badge/JyP9YQ12p23Tk9iFqSYa8 → badge_valid, extension_conformant and verification_present all true, issues [].\"],\"docs\":\"https://docs.concordium.com/en/mainnet/technical-reference/agent-registry/concordium-badge.html\"}"
+  },
+  "verifyCard": {
+   "url": "https://agent-registry-mcp.concordium.com/v1/verify-agent-card/JyP9YQ12p23Tk9iFqSYa8?network=testnet",
+   "status": 200,
+   "body": "{\"network\":\"testnet\",\"token_id\":\"1007\",\"on_chain_uri\":\"https://raw.githubusercontent.com/DSP-AID/concordium-agent-registry-pack/main/agent-card.json\",\"on_chain_hash_hex\":\"71806872bf44161ae5ba769ec08e324873cdeedc620daa0b165521e71f68737a\",\"fetched\":{\"http_status\":200,\"byte_length\":1697,\"sha256_hex\":\"71806872bf44161ae5ba769ec08e324873cdeedc620daa0b165521e71f68737a\",\"body_preview\":\"{\\n  \\\"name\\\": \\\"DSP-AID Testnet Agent\\\",\\n  \\\"description\\\": \\\"Autonomous agent (OpenCode / DSP-AID) with on-chain identity registered in the Concordium CIS-8004 Agent Registry on testnet. Demonstrates the Verified by Concordium badge flow.\\\",\\n  \\\"version\\\": \\\"1.0.0\\\",\\n  \\\"url\\\": \\\"https://github.com/DSP-AID\\\",\\n  \\\"protocolVersion\\\": \\\"0.3.0\\\",\\n  \\\"preferredTransport\\\": \\\"JSON-RPC\\\",\\n  \\\"capabilities\\\": {\\n    \\\"extensions\\\": [\\n      {\\n        \\\"uri\\\": \\\"https://docs.concordium.com/a2a-extensions/concordium-badge/v1\\\",\\n        \\\"description\\\": \\\"Verified by Concordium badge - on-chain agent identity in a CIS-8004 registry\\\",\\n        \\\"required\\\": false,\\n        \\\"params\\\": {\\n          \\\"tokenAddress\\\": \\\"ccd:4221332d34e1694168c2a0c0b3fd0f27/cis-2:JyP9YQ12p23Tk9iFqSYa8\\\",\\n          \\\"owner\\\": {\\n            \\\"account\\\": \\\"ccd:4221332d34e1694168c2a0c0b3fd0f27:4FCA4rWQ2DpNW2eKF9MSnH6G17TQ1bWo2j7KiH8SvaqPV9254W\\\"\\n          },\\n          \\\"contracts\\\": {\\n            \\\"cis8004\\\": \\\"ccd:4221332d34e1694168c2a0c0b3fd0f27:12802.0\\\",\\n            \\\"cis8\\\": \\\"ccd:4221332d34e1694168c2a0c0b3fd0f27:12801.0\\\"\\n          },\\n          \\\"verify\\\": \\\"Resolve tokenAddress via CIS-8004 agent_of; confirm owner + status is Active + card SHA-256 equals metadata_hash.\\\"\\n        }\\n      }\\n    ]\\n  },\\n  \\\"defaultInputModes\\\": [\\n    \\\"text/plain\\\"\\n  ],\\n  \\\"defaultOutputModes\\\": [\\n    \\\"text/plain\\\"\\n  ],\\n  \\\"skills\\\": [\\n    {\\n      \\\"id\\\": \\\"general-automation\\\",\\n      \\\"name\\\": \\\"General automation agent\\\",\\n      \\\"description\\\": \\\"Executes arbitrary developer/research tasks autonomously.\\\",\\n      \\\"tags\\\": [\\n        \\\"a2a\\\",\\n        \\\"autonomy\\\"\\n      ]\\n    }\\n  ],\\n  \\\"registrations\\\": [\\n    {\\n      \\\"agentId\\\": 1007,\\n      \\\"agentRegistry\\\": \\\"ccd:4221332d34e1694168c2a0c0b3fd0f27:12802.0\\\"\\n    }\\n  ]\\n}\"},\"match\":true}"
+  }
+ },
+ "links": {
+  "credTx": {
+   "url": "https://ccdexplorer.io/testnet/transaction/7fa6d2e437a846ca6d9807bfca679a1970840518e115c5e3aef26548cb8b6f24",
+   "status": 200
+  },
+  "deployTx": {
+   "url": "https://ccdexplorer.io/testnet/transaction/8526a7d0636ef9cbbbe6910757d5bf8e9555c04915408a6ed3ffef504331acb4",
+   "status": 200
+  },
+  "initTx": {
+   "url": "https://ccdexplorer.io/testnet/transaction/1bfd4a12455ac4ca0e8c4fb19e34616015aa2a9b32d1a8f7649fd89e9379c035",
+   "status": 200
+  },
+  "registerTx": {
+   "url": "https://ccdexplorer.io/testnet/transaction/f3fd27b47014e1ef4f10deb980f008278ce4f535ee39d40e07be1f51fd6a5ffd",
+   "status": 200
+  },
+  "pinTx": {
+   "url": "https://ccdexplorer.io/testnet/transaction/d81018cd92febe15edf5ebd709695478d5bb516130f18eb5f51c4cfce99e54bf",
+   "status": 200
+  },
+  "drop1": {
+   "url": "https://ccdexplorer.io/testnet/transaction/e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+   "status": 200
+  },
+  "drop2": {
+   "url": "https://ccdexplorer.io/testnet/transaction/e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+   "status": 200
+  },
+  "drop3": {
+   "url": "https://ccdexplorer.io/testnet/transaction/e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+   "status": 200
+  },
+  "drop4": {
+   "url": "https://ccdexplorer.io/testnet/transaction/e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+   "status": 200
+  },
+  "drop5": {
+   "url": "https://ccdexplorer.io/testnet/transaction/e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+   "status": 200
+  },
+  "drop6": {
+   "url": "https://ccdexplorer.io/testnet/transaction/e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+   "status": 200
+  },
+  "drop7": {
+   "url": "https://ccdexplorer.io/testnet/transaction/e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+   "status": 200
+  },
+  "drop8": {
+   "url": "https://ccdexplorer.io/testnet/transaction/e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+   "status": 200
+  },
+  "drop9": {
+   "url": "https://ccdexplorer.io/testnet/transaction/e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+   "status": 200
+  },
+  "drop10": {
+   "url": "https://ccdexplorer.io/testnet/transaction/e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+   "status": 200
+  },
+  "drop11": {
+   "url": "https://ccdexplorer.io/testnet/transaction/e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+   "status": 200
+  },
+  "drop12": {
+   "url": "https://ccdexplorer.io/testnet/transaction/e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+   "status": 200
+  },
+  "drop13": {
+   "url": "https://ccdexplorer.io/testnet/transaction/e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+   "status": 200
+  },
+  "drop14": {
+   "url": "https://ccdexplorer.io/testnet/transaction/e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+   "status": 200
+  },
+  "drop15": {
+   "url": "https://ccdexplorer.io/testnet/transaction/e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+   "status": 200
+  },
+  "drop16": {
+   "url": "https://ccdexplorer.io/testnet/transaction/e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+   "status": 200
+  },
+  "drop17": {
+   "url": "https://ccdexplorer.io/testnet/transaction/e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+   "status": 200
+  },
+  "drop18": {
+   "url": "https://ccdexplorer.io/testnet/transaction/e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+   "status": 200
+  },
+  "drop19": {
+   "url": "https://ccdexplorer.io/testnet/transaction/e0ea2368019b98b87dce5a18a042ceebd679097207b684a2e1bbc2c12b629f57",
+   "status": 200
+  }
+ },
+ "agentCardUrl": "https://raw.githubusercontent.com/DSP-AID/concordium-agent-registry-pack/main/agent-card.json",
+ "pinTxHistory": [
+  "d2cb5234653b331d32d2ba415f07f7698437a2274efe12f0467dec6286414b28",
+  "d81018cd92febe15edf5ebd709695478d5bb516130f18eb5f51c4cfce99e54bf"
+ ]
+}
